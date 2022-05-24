@@ -7,5 +7,5 @@ if (file_exists($plik)) {
     require_once($plik);
     $strona_akt->ustaw_tytul($tytul);
     $strona_akt->ustaw_zawartosc($zawartosc);
-    $strona_akt->wyswietl();
+    $strona_akt->wyswietl(); 
 }
